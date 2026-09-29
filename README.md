@@ -26,9 +26,9 @@ Inheritance memungkinkan kelas turunan mengoper fungsionalitas dan atribut dari 
 - `Silinder` mewarisi atribut `radius` dan method `hitungLuas()` dari kelas induknya, yaitu `Lingkaran`.
 
 ### 3. Polymorphism (Polimorfisme)
-Polymorphism diterapkan melalui **Method Overriding**:
-- Method `printInfo()` didefinisikan pada kelas induk `Bentuk` dan di-override (dibuat ulang perilakunya) pada masing-masing subclass (`BujurSangkar`, `Lingkaran`, dan `Silinder`).
-- Pada kelas `Main`, objek-objek subclass disimpan dalam variabel bertipe superclass `Bentuk`. Saat method `printInfo()` dipanggil, program secara dinamis mengeksekusi method sesuai bentuk asli dari objek tersebut.
+Polymorphism diterapkan melalui **Redefinisi/Pendefinisian Ulang Method**:
+- Method `printInfo()` didefinisikan kembali pada masing-masing subclass (`BujurSangkar`, `Lingkaran`, dan `Silinder`) dengan nama dan parameter yang sama persis seperti pada kelas induk `Bentuk`.
+- Pada kelas `Main`, objek-objek subclass diacu menggunakan variabel bertipe superclass `Bentuk`. Saat method `printInfo()` dipanggil, program secara otomatis menjalankan versi method milik instance asli objek tersebut.
 
 ---
 
