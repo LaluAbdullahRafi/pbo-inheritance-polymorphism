@@ -43,5 +43,6 @@ Polymorphism diterapkan melalui **Method Overriding**:
 ├── Main.java           # Main class untuk eksekusi dan pengujian objek
 └── README.md           # Dokumentasi tugas
 
-Output:
-![alt text](image.png)
+## Screenshot Hasil Eksekusi Program
+
+![Hasil Output Program](image.png)
